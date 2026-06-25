@@ -4,7 +4,7 @@ import os
 try:
     from config import GOLD_API_KEY
 except ImportError:
-    GOLD_API_KEY = "YOUR_API_KEY_HERE"
+    GOLD_API_KEY ="goldapi-a2afe631f501f135c2f77f4ab2ae3cef-io"
 
 class GoldApiService:
     API_URL = "https://www.goldapi.io/api/XAU/USD"
